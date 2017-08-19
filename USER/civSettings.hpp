@@ -4,7 +4,7 @@
 */
 
 
-enableCivs = 1;                                                                 // Zivilisten aktiviert (0/1)
+enableCivs = 0;                                                                 // Zivilisten aktiviert (0/1)
 
 maxCivs = 60;                                                                   // maximale Anzahl an Zivilisten
 spawnDistances[] = {1000,4500};                                                 // Mindest- und Maximalabstand zu allen Spielern, in denen Zivilisten spawnen
@@ -12,6 +12,12 @@ backpackProbability = 0.15;                                                     
 exitOn = "";                                                                    // Skriptbedingung, ab der keine weiteren Zivilisten mehr spawnen
 onSpawn = "";                                                                   // Code, der ausgeführt wird, wenn ein Zivilist spawnt
 onHeldUp = "";                                                                  // Code, der ausgeführt wird, wenn ein Zivilist angehalten wird (Spieler zeigt mit Waffe auf Zivilist)
+
+
+maxCivsOnFoot = 40;                                                             // maximale Anzahl an Zivilisten zu Fuß
+maxCivsInVehicles = 15;                                                         // maximale Anzahl an Zivilisten in Fahrzeugen
+spawnDistancesOnFoot[] = {1000,4500};                                           // Mindest- und Maximalabstand zu allen Spielern, in denen Zivilisten zu Fuß spawnen
+spawnDistancesInVehicles[] = {1800,6000};                                       // Mindest- und Maximalabstand zu allen Spielern, in denen Zivilisten in Fahrzeugen spawnen
 
 
 class userEquipment {
@@ -40,6 +46,10 @@ class userEquipment {
 
     // Rucksäcke
     backpacks[] = {
+
+    };
+
+    vehicles[] = {
 
     };
 };

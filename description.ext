@@ -15,8 +15,14 @@ respawnTemplates[] = {"Base"};
 respawnOnStart = -1;
 respawnDialog = 0;
 disabledAI = 0;
-enableDebugConsole = 1;
 allowFunctionsRecompile = 1;
+
+enableDebugConsole = 1;
+/*//mcdiod, nomisum
+enableDebugConsole[] = {
+	"76561198044320063",
+	"76561197961080101"
+};*/
 
 
 //MISC =========================================================================
@@ -25,9 +31,9 @@ allowFunctionsRecompile = 1;
 #include "cfgIslands.hpp"
 #include "USER\missionInfo.hpp"
 #include "USER\garbageCollector.hpp"
-#include "USER\loadouts.hpp"
 
 class missionsettings {
+	#include "USER\loadouts.hpp"
 	#include "USER\respawnSettings.hpp"
 	#include "USER\missionsettings.hpp"
 };

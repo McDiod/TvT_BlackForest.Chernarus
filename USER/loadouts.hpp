@@ -15,8 +15,8 @@
 */
 
 
-loadoutFactionBlu = "BWFleck";
-loadoutFactionOpf = "";
+loadoutFactionBlu = "us_army";
+loadoutFactionOpf = "rus_msv_w";
 loadoutFactionInd = "";
 
 
