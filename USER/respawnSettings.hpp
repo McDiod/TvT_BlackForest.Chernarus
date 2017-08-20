@@ -1,5 +1,5 @@
 //WAVE RESPAWN =================================================================
-waveRespawnEnabled = 1;                                                         //Wave Respawn ein-/ausschalten (1/0)
+waveRespawnEnabled = 0;                                                         //Wave Respawn ein-/ausschalten (1/0)
 
 bluforWaveSize = -1;                                                            //Wellengröße Blufor (-1 == automatisch)
 opforWaveSize = -1;                                                             //Wellengröße Opfor (-1 == automatisch)
