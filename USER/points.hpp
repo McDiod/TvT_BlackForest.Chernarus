@@ -11,9 +11,9 @@
 *
 */
 
-playerKilled = 0;
-aiKilled = 0;
-civKilled = 0;
+playerKilled = 2;
+aiKilled = 1;
+civKilled = -2;
 
 class BLUFOR {
 
