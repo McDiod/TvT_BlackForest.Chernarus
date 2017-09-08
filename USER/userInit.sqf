@@ -7,3 +7,7 @@ enableEngineArtillery false;
 if (isServer) then {
     [] execVM "USER\scripts\createProtectionMarkers.sqf";
 };
+
+if (hasInterface) then {
+
+};

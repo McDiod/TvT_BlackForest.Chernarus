@@ -5,3 +5,6 @@
 *   rhs_weap_t5000 = 1;
 *   rhs_weap_m24sws = 1;
 */
+
+rhs_weap_smaw_green = 1;
+rhs_weap_rpg7 = 1;
