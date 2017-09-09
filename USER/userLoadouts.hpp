@@ -33,6 +33,7 @@ class bf_us_army: us_army {
                 "ACE_Kestrel4500",
                 "ACE_microDAGR"
             };
+			backpack = "B_Mortar_01_support_F";
 		};
 
 		//mortar assistant
@@ -43,16 +44,19 @@ class bf_us_army: us_army {
                 "ACE_Kestrel4500",
                 "ACE_microDAGR"
             };
+			backpack = "B_Mortar_01_weapon_F";
 		};
 
 		//HMG gunner
 		class support_MG_F: Soldier_F {
             binoculars = "ACE_VectorDay";
+			backpack = "RHS_M2_MiniTripod_Bag";
 		};
 
 		//hmg assistant
 		class support_AMG_F: Soldier_F {
             binoculars = "ACE_VectorDay";
+			backpack = "RHS_M2_Gun_Bag";
 		};
 	};
 };
@@ -87,6 +91,7 @@ class bf_rus_msv_w: rus_msv_w {
                 "ACE_Kestrel4500",
                 "ACE_microDAGR"
             };
+			backpack = "O_Mortar_01_support_F";
 		};
 
 		//mortar assistant
@@ -97,16 +102,19 @@ class bf_rus_msv_w: rus_msv_w {
                 "ACE_Kestrel4500",
                 "ACE_microDAGR"
             };
+			backpack = "O_Mortar_01_weapon_F";
 		};
 
 		//HMG gunner
 		class support_MG_F: Soldier_F {
             binoculars = "ACE_VectorDay";
+			backpack = "RHS_Kord_Tripod_Bag";
 		};
 
 		//hmg assistant
 		class support_AMG_F: Soldier_F {
             binoculars = "ACE_VectorDay";
+			backpack = "RHS_Kord_Gun_Bag";
 		};
 	};
 };

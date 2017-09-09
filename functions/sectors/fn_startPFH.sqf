@@ -29,9 +29,9 @@ INFO_1("PFH for %1 starting.",_trigger getVariable "grad_sectors_sectorName");
     _countIndep = if (INDEPENDENT in _captureSides) then {INDEPENDENT countSide _list} else {0};
 
     (_trigger getVariable "grad_sectors_sideStrenghts") params ["_strengthWest","_strengthEast","_strengthIndep"];
-    _strengthWest = (_strengthWest + (_countWest/_countTotal - 0.5)/15) max 0 min 1;
-    _strengthEast = (_strengthEast + (_countEast/_countTotal - 0.5)/15) max 0 min 1;
-    _strengthIndep = (_strengthIndep + (_countIndep/_countTotal - 0.5)/15) max 0 min 1;
+    _strengthWest = (_strengthWest + (_countWest/_countTotal - 0.5)/30) max 0 min 1;
+    _strengthEast = (_strengthEast + (_countEast/_countTotal - 0.5)/30) max 0 min 1;
+    _strengthIndep = (_strengthIndep + (_countIndep/_countTotal - 0.5)/30) max 0 min 1;
     _trigger setVariable ["grad_sectors_sideStrenghts",[_strengthWest,_strengthEast,_strengthIndep]];
 
     _newOwner = if (_strengthWest == 1) then {WEST} else {if (_strengthEast == 1) then {EAST} else {if (_strengthIndep == 1) then {INDEPENDENT} else {_oldOwner}}};

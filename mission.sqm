@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3537;
+		nextID=3553;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=280;
+		nextID=300;
 	};
 	class Camera
 	{
-		pos[]={10177.516,250.20445,5260.9736};
-		dir[]={-0.786762,-0.57465398,0.22539137};
-		up[]={-0.55244172,0.81838906,0.15826286};
-		aside[]={0.2754038,-5.0722156e-007,0.96134025};
+		pos[]={8708.8867,393.57251,10816.744};
+		dir[]={-0.61241353,-0.48944342,-0.62081397};
+		up[]={-0.34372601,0.87203217,-0.34844097};
+		aside[]={-0.71191013,-2.1886081e-008,0.70227754};
 	};
 };
 binarizationWanted=0;
@@ -69,8 +69,8 @@ addons[]=
 	"A3_Structures_F_Items_Tools",
 	"rhsusf_vehicles",
 	"A3_Characters_F",
-	"asr_ai3_cfgcamouflage",
 	"asr_ai3_cfgvehicles",
+	"asr_ai3_cfgcamouflage",
 	"A3_Soft_F_Quadbike_01",
 	"rhs_c_cars",
 	"A3_Modules_F_Hc",
@@ -5847,7 +5847,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[],[]],[[],[]],[[],[]],[[""B_Mortar_01_support_F"",""B_Mortar_01_weapon_F""],[1,1]]],false]";
+									value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -5859,8 +5859,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10155.527,235.44913,5252.3823};
-						angles[]={6.2618566,5.9390688,6.272521};
+						position[]={10155.527,235.44897,5252.3823};
+						angles[]={6.2618575,5.9390759,6.2725215};
 					};
 					side="Empty";
 					flags=4;
@@ -5870,7 +5870,7 @@ class Mission
 					};
 					id=3035;
 					type="B_Quadbike_01_F";
-					atlOffset=-0.022842407;
+					atlOffset=-0.022994995;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -5888,7 +5888,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[],[]],[[],[]],[[],[]],[[""RHS_M2_Gun_Bag"",""RHS_M2_MiniTripod_Bag""],[1,1]]],false]";
+									value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -6669,7 +6669,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8615.5918,295.90829,10717.916};
-						angles[]={0.034654226,3.5123529,6.2725158};
+						angles[]={0.034662239,3.5123529,6.2725215};
 					};
 					side="Empty";
 					flags=4;
@@ -6790,7 +6790,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""rhs_weap_rpg26""],[1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[16,8,2,6,4]],[[""rhs_acc_1pn93_1"",""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_salineIV""],[1,15,10,15,6]],[[],[]]],false]";
+									value="[[[[""rhs_weap_rpg26""],[1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[16,2,6,4]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_salineIV""],[15,10,15,6]],[[],[]]],false]";
 								};
 							};
 						};
@@ -6802,8 +6802,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8618.3721,295.63211,10724.997};
-						angles[]={0.035982672,3.5123529,6.2711854};
+						position[]={8618.3721,295.63214,10724.997};
+						angles[]={0.035988688,3.5123529,6.2711778};
 					};
 					side="Empty";
 					flags=4;
@@ -6812,7 +6812,6 @@ class Mission
 					};
 					id=3177;
 					type="rhs_tigr_vdv";
-					atlOffset=-3.0517578e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6925,7 +6924,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""rhs_weap_rpg26""],[1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[16,8,2,6,4]],[[""rhs_acc_1pn93_1"",""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_salineIV""],[1,15,10,15,6]],[[],[]]],false]";
+									value="[[[[""rhs_weap_rpg26""],[1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[16,2,6,4]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_salineIV""],[15,10,15,6]],[[],[]]],false]";
 								};
 							};
 						};
@@ -7341,13 +7340,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8612.7383,296.53937,10708.94};
-						angles[]={0.061255306,3.4141958,6.2698488};
+						angles[]={0.061261058,3.4141958,6.2698507};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="call{if (isServer) then {for '_i' from 0 to 12 do {this removeMagazinesTurret ['RHS_mag_VOG30_30',[1]]}}}";
+						init="call{if (isServer) then {this removeMagazinesTurret ['RHS_mag_VOG30_30',[1]]; " \n "    for '_i' from 0 to 12 do {this removeMagazineTurret ['rhs_mag_762x54mm_100',[0]]}; " \n "};}";
 					};
 					id=3175;
 					type="rhs_tigr_sts_vdv";
@@ -7463,7 +7462,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[""rhs_weap_rpg26"",""Medikit""],[1,1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[20,8,4,6,4]],[[""rhs_acc_1pn93_1"",""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_salineIV""],[1,20,5,10,2]],[[],[]]],false]";
+									value="[[[[""rhs_weap_rpg26""],[1]],[[""rhs_30Rnd_545x39_7N10_AK"",""rhs_100Rnd_762x54mmR"",""rhs_mag_rdg2_white"",""rhs_mag_rgd5"",""rhs_rpg26_mag""],[20,8,4,6,4]],[[""ACE_fieldDressing"",""ACE_epinephrine"",""ACE_morphine"",""ACE_salineIV""],[20,5,10,2]],[[],[]]],false]";
 								};
 							};
 						};
@@ -8430,7 +8429,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[],[]],[[],[]],[[],[]],[[""RHS_Kord_Tripod_Bag"",""RHS_Kord_Gun_Bag""],[1,1]]],false]";
+									value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
@@ -8470,7 +8469,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="[[[[],[]],[[],[]],[[],[]],[[""O_Mortar_01_support_F"",""O_Mortar_01_weapon_F""],[1,1]]],false]";
+									value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 								};
 							};
 						};
