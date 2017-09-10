@@ -58,6 +58,11 @@ class bf_us_army: us_army {
             binoculars = "ACE_VectorDay";
 			backpack = "RHS_M2_Gun_Bag";
 		};
+
+		//crewman
+		class crew_F: Soldier_F {
+			headgear = "rhsusf_cvc_green_helmet";
+		};
 	};
 };
 
@@ -115,6 +120,11 @@ class bf_rus_msv_w: rus_msv_w {
 		class support_AMG_F: Soldier_F {
             binoculars = "ACE_VectorDay";
 			backpack = "RHS_Kord_Gun_Bag";
+		};
+
+		//crewman
+		class crew_F: Soldier_F {
+			headgear = "rhs_tsh4";
 		};
 	};
 };
