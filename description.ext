@@ -124,7 +124,7 @@ class CfgSounds {
 
 //GRAD LOADOUT =================================================================
 class Loadouts {
-    baseDelay = 1;
+    baseDelay = 12;
     handleRadios = 1;
     resetLoadout = 0;
 

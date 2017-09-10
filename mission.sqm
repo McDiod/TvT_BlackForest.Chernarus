@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=310;
+		nextID=320;
 	};
 	class Camera
 	{
-		pos[]={10061.355,303.80997,5188.4541};
-		dir[]={0.32183719,-0.6379565,0.69959784};
-		up[]={0.26662123,0.77007234,0.57957137};
-		aside[]={0.90848154,-4.8079528e-008,-0.41793033};
+		pos[]={8612.708,319.2973,10683.803};
+		dir[]={0.61879939,-0.48728886,0.61615074};
+		up[]={0.34530452,0.87324041,0.34382638};
+		aside[]={0.70559037,5.1222742e-009,-0.70862383};
 	};
 };
 binarizationWanted=0;
@@ -4462,17 +4462,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10167.847,236.85988,5266.0972};
-						angles[]={6.2206001,5.4699345,6.2458687};
+						position[]={10167.847,236.85976,5266.0972};
+						angles[]={6.2205977,5.4699316,6.2458701};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
+						init="call{if (isServer) then {this removeMagazineTurret [""rhs_mag_100rnd_127x99_mag_Tracer_Red"",[0]]}}";
 					};
 					id=3168;
 					type="rhsusf_m1025_w_m2";
-					atlOffset=0.00012207031;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12710,7 +12710,7 @@ class Mission
 				};
 			};
 			id=3368;
-			atlOffset=-0.06211853;
+			atlOffset=-0.041412354;
 		};
 		class Item10
 		{
