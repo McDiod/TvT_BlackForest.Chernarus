@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3553;
+		nextID=3555;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=300;
+		nextID=310;
 	};
 	class Camera
 	{
-		pos[]={8708.8867,393.57251,10816.744};
-		dir[]={-0.61241353,-0.48944342,-0.62081397};
-		up[]={-0.34372601,0.87203217,-0.34844097};
-		aside[]={-0.71191013,-2.1886081e-008,0.70227754};
+		pos[]={10061.355,303.80997,5188.4541};
+		dir[]={0.32183719,-0.6379565,0.69959784};
+		up[]={0.26662123,0.77007234,0.57957137};
+		aside[]={0.90848154,-4.8079528e-008,-0.41793033};
 	};
 };
 binarizationWanted=0;
@@ -7346,7 +7346,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{if (isServer) then {this removeMagazinesTurret ['RHS_mag_VOG30_30',[1]]; " \n "    for '_i' from 0 to 12 do {this removeMagazineTurret ['rhs_mag_762x54mm_100',[0]]}; " \n "};}";
+						init="call{if (isServer) then {this removeMagazinesTurret ['RHS_mag_VOG30_30',[1]]; " \n "    for '_i' from 0 to 9 do {this removeMagazineTurret ['rhs_mag_762x54mm_100',[0]]}; " \n "};}";
 					};
 					id=3175;
 					type="rhs_tigr_sts_vdv";
@@ -12710,7 +12710,7 @@ class Mission
 				};
 			};
 			id=3368;
-			atlOffset=-0.041412354;
+			atlOffset=-0.06211853;
 		};
 		class Item10
 		{
