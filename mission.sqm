@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=370;
+		nextID=400;
 	};
 	class Camera
 	{
-		pos[]={10259.718,306.72318,5145.6265};
-		dir[]={-0.56857961,-0.42577514,0.70389956};
-		up[]={-0.26755035,0.9048233,0.33122781};
-		aside[]={0.77793515,-3.6018901e-007,0.62837982};
+		pos[]={10182.627,237.40714,5209.9966};
+		dir[]={0.1177991,-0.13321379,0.9840861};
+		up[]={0.015836529,0.99108386,0.13228936};
+		aside[]={0.992935,-1.1118827e-006,-0.11886089};
 	};
 };
 binarizationWanted=0;
@@ -393,22 +393,27 @@ class Mission
 {
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0;
-		startWind=0.1;
+		timeOfChanges=5400;
+		startWeather=0.19896472;
+		startFog=0.049026057;
+		startWind=0.60409641;
+		startWindDir=78;
 		startWaves=0.1;
+		startGust=0.20177804;
 		forecastWeather=0;
-		forecastWind=0.1;
+		forecastWind=0.50000018;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
+		forecastGust=0.29743403;
+		forecastWindDir=95;
 		rainForced=1;
 		lightningsForced=1;
 		wavesForced=1;
 		windForced=1;
 		year=2035;
 		day=28;
-		hour=13;
-		minute=37;
+		hour=5;
+		minute=0;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};
@@ -1088,11 +1093,11 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={1798.9531,28.643707,1801.863};
+						position[]={1798.953,28.643293,1801.863};
 					};
 					id=102;
 					type="ace_weather_ModuleSettings";
-					atlOffset=45.840408;
+					atlOffset=45.84;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12889,7 +12894,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
